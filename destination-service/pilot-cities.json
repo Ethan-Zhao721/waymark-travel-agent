@@ -1,0 +1,72 @@
+[
+  {
+    "id": "weishan-cn",
+    "name": "巍山",
+    "countryCode": "CN",
+    "latitude": 25.23,
+    "longitude": 100.307
+  },
+  {
+    "id": "kunming-cn",
+    "name": "昆明",
+    "countryCode": "CN",
+    "latitude": 25.0389,
+    "longitude": 102.7183
+  },
+  {
+    "id": "shenzhen-cn",
+    "name": "深圳",
+    "countryCode": "CN",
+    "latitude": 22.5431,
+    "longitude": 114.0579
+  },
+  {
+    "id": "guangzhou-cn",
+    "name": "广州",
+    "countryCode": "CN",
+    "latitude": 23.1291,
+    "longitude": 113.2644
+  },
+  {
+    "id": "siem-reap-kh",
+    "name": "暹粒",
+    "countryCode": "KH",
+    "latitude": 13.3618,
+    "longitude": 103.8564
+  },
+  {
+    "id": "bangkok-th",
+    "name": "曼谷",
+    "countryCode": "TH",
+    "latitude": 13.754,
+    "longitude": 100.5018
+  },
+  {
+    "id": "chiang-mai-th",
+    "name": "清迈",
+    "countryCode": "TH",
+    "latitude": 18.7904,
+    "longitude": 98.9847
+  },
+  {
+    "id": "london-gb",
+    "name": "伦敦",
+    "countryCode": "GB",
+    "latitude": 51.5072,
+    "longitude": -0.1276
+  },
+  {
+    "id": "barcelona-es",
+    "name": "巴塞罗那",
+    "countryCode": "ES",
+    "latitude": 41.3888,
+    "longitude": 2.159
+  },
+  {
+    "id": "florence-it",
+    "name": "佛罗伦萨",
+    "countryCode": "IT",
+    "latitude": 43.7793,
+    "longitude": 11.2463
+  }
+]

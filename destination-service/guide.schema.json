@@ -1,0 +1,200 @@
+{
+  "type": "object",
+  "properties": {
+    "cityID": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "string"
+    },
+    "coverage": {
+      "type": "string"
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "景点",
+              "饭店"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "englishName": {
+            "type": "string"
+          },
+          "latitude": {
+            "type": "number"
+          },
+          "longitude": {
+            "type": "number"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "url"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "priceTier": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "usdPerPerson": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "priceNote": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "priceURL": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "signals": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "google",
+                    "xhs",
+                    "dianping"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "reviews": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "likes": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "platform",
+                "url",
+                "rating",
+                "reviews",
+                "likes"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "perPersonUSDRange": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "Verified per-person range in USD. Preserve meal and both endpoints. Use null for set menu prices, unsupported conversions or an unknown price.",
+            "properties": {
+              "low": {
+                "type": "number"
+              },
+              "high": {
+                "type": "number"
+              },
+              "meal": {
+                "type": "string",
+                "enum": [
+                  "any",
+                  "lunch",
+                  "dinner",
+                  "breakfast"
+                ]
+              }
+            },
+            "required": [
+              "low",
+              "high",
+              "meal"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "name",
+          "englishName",
+          "latitude",
+          "longitude",
+          "reason",
+          "evidence",
+          "sources",
+          "priceTier",
+          "usdPerPerson",
+          "priceNote",
+          "priceURL",
+          "address",
+          "signals",
+          "perPersonUSDRange"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "cityID",
+    "checked",
+    "coverage",
+    "places"
+  ],
+  "additionalProperties": false
+}

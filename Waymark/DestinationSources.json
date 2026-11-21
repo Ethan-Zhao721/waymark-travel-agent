@@ -1,0 +1,14 @@
+{
+  "mainlandRegion": "CN",
+  "mainland": {
+    "food": ["高德全城美食榜前十", "大众点评同城必吃榜综合排序前十"],
+    "sights": ["高德全城景点榜前十", "景区或博物馆官网"]
+  },
+  "international": {
+    "food": ["MICHELIN Guide / Bib Gourmand", "当地美食指南"],
+    "sights": ["Tripadvisor Travelers’ Choice", "当地旅游局、景区或博物馆官网"]
+  },
+  "regionalFood": {"JP": ["Tabelog 食べログ"]},
+  "mainlandDianpingCities": {"昆明": 267},
+  "googleFields": ["rating", "userRatingCount", "googleMapsUri"]
+}

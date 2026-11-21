@@ -1,0 +1,448 @@
+{
+  "cityID": "2128574",
+  "checked": "2026-11-20",
+  "coverage": "本次小樽餐厅样本来自 Google Maps 门店和小红书笔记。大众点评部分门店可见人均，未取得可排序的点评评价数。预算来自链接的分店资料；美元按 2026-11-19 每美元 159.97 日元折算。",
+  "places": [
+    {
+      "id": "yoichiya-canal",
+      "name": "世壱屋 · 小樽运河店",
+      "englishName": "Yoichiya Otaru Canal",
+      "address": "小樽市堺町2-18",
+      "category": "饭店",
+      "reason": "海胆丼",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1952304,
+      "longitude": 141.0041684,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1070911/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=916865764882820641"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6a67f149000000001303f83f"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=916865764882820641",
+          "rating": 4.8,
+          "reviews": 5555,
+          "likes": null,
+          "rank": 1
+        },
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6a67f149000000001303f83f",
+          "rating": null,
+          "reviews": null,
+          "likes": 264,
+          "rank": 3
+        }
+      ],
+      "priceNote": "$$$ · 午餐预算约 US$38–50/人（JPY 6,000–7,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1070911/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "toi-maguro",
+      "name": "といまぐろ · 天然本鲔专门店",
+      "englishName": "Toi Maguro",
+      "address": "小樽市色内1-12-2",
+      "category": "饭店",
+      "reason": "金枪鱼海鲜丼与和牛",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.195515,
+      "longitude": 141.0012746,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1080946/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=2305779359452209885"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=2305779359452209885",
+          "rating": 4.9,
+          "reviews": 1332,
+          "likes": null,
+          "rank": 2
+        }
+      ],
+      "priceNote": "$$ · 用餐预算约 US$19–25/人（JPY 3,000–3,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1080946/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "the-ball",
+      "name": "The Ball 小樽",
+      "englishName": "The Ball Otaru",
+      "address": "小樽市色内1-8-25",
+      "category": "饭店",
+      "reason": "UNWIND 酒店内的法餐厅",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1975071,
+      "longitude": 141.000924,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1061076/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=7896138807187719151"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=7896138807187719151",
+          "rating": 4.6,
+          "reviews": 401,
+          "likes": null,
+          "rank": 3
+        }
+      ],
+      "priceNote": "$$$ · 用餐预算约 US$50–63/人（JPY 8,000–9,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1061076/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "otaru-muse",
+      "name": "小樽 Muse",
+      "englishName": "Otaru Muse",
+      "address": "小樽市稲穂1-11-7",
+      "category": "饭店",
+      "reason": "日式洋食",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1940192,
+      "longitude": 140.9964707,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1010375/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=10518162427632058783"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=10518162427632058783",
+          "rating": 4.6,
+          "reviews": 391,
+          "likes": null,
+          "rank": 4
+        }
+      ],
+      "priceNote": "$ · 午餐预算约 US$6–12/人（JPY 1,000–1,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1010375/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "dining-no-name",
+      "name": "OTARU DINING NO NAME",
+      "englishName": "Otaru Dining No Name",
+      "address": "小樽市東雲町2-1",
+      "category": "饭店",
+      "reason": "洋食餐厅",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1954109,
+      "longitude": 141.001672,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1055354/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=2473663706124106415"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=2473663706124106415",
+          "rating": 4.7,
+          "reviews": 383,
+          "likes": null,
+          "rank": 5
+        }
+      ],
+      "priceNote": "$–$$ · 午餐预算约 US$13–19/人（JPY 2,000–2,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1055354/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "seafood-otamoi",
+      "name": "Seafood Otamoi",
+      "englishName": "Seafood Otamoi",
+      "address": "小樽市住吉町1-3",
+      "category": "饭店",
+      "reason": "海鲜餐厅",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1906768,
+      "longitude": 141.0084174,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1083396/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?cid=15126201486094927804"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "google",
+          "url": "https://www.google.com/maps?cid=15126201486094927804",
+          "rating": 4.8,
+          "reviews": 340,
+          "likes": null,
+          "rank": 6
+        }
+      ],
+      "priceNote": "$$–$$$ · 用餐预算约 US$31–38/人（JPY 5,000–5,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1083396/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "ramen-tokaiya",
+      "name": "渡海家拉面",
+      "englishName": "Ramen Tokaiya",
+      "address": "小樽市稲穂3-7-14",
+      "category": "饭店",
+      "reason": "笔记推荐叉烧拉面",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1986846,
+      "longitude": 140.9957857,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1000939/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6a24ccb70000000006021d10"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6a24ccb70000000006021d10",
+          "rating": null,
+          "reviews": null,
+          "likes": 426,
+          "rank": 1
+        }
+      ],
+      "priceNote": "$ · 午餐预算约 US$6–12/人（JPY 1,000–1,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1000939/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "kaisennin-canal",
+      "name": "海仙人 · 小樽运河店",
+      "englishName": "Kaisennin Otaru Canal",
+      "address": "小樽市住吉町1-1",
+      "category": "饭店",
+      "reason": "笔记推荐小樽朝市丼",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.190902,
+      "longitude": 141.008379,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1084363/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6ad0dbc7000000001c02f521"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6ad0dbc7000000001c02f521",
+          "rating": null,
+          "reviews": null,
+          "likes": 390,
+          "rank": 2
+        }
+      ],
+      "priceNote": "$$ · 用餐预算约 US$19–25/人（JPY 3,000–3,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1084363/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "poseidon-main",
+      "name": "小樽ポセイ丼 · 堺町总本店",
+      "englishName": "Otaru Poseidon Main Shop",
+      "address": "小樽市堺町4-9",
+      "category": "饭店",
+      "reason": "堺町海鲜丼",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.194109,
+      "longitude": 141.006041,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1042928/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6adb13da00000000330319c0"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6adb13da00000000330319c0",
+          "rating": null,
+          "reviews": null,
+          "likes": 203,
+          "rank": 4
+        }
+      ],
+      "priceNote": "$–$$ · 午餐预算约 US$13–19/人（JPY 2,000–2,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1042928/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "crazy-spice",
+      "name": "Crazy Spice · 小樽本店",
+      "englishName": "Crazy Spice",
+      "address": "小樽市色内3-3-21",
+      "category": "饭店",
+      "reason": "笔记推荐汤咖喱",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.2048248,
+      "longitude": 140.9987408,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1007912/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6aa01f87000000002902ee35"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6aa01f87000000002902ee35",
+          "rating": null,
+          "reviews": null,
+          "likes": 123,
+          "rank": 5
+        }
+      ],
+      "priceNote": "$ · 用餐预算约 US$6–12/人（JPY 1,000–1,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1007912/",
+      "usdPerPerson": null,
+      "priceTier": null
+    },
+    {
+      "id": "toriya-otori",
+      "name": "鶏屋 鳳",
+      "englishName": "Toriya Otori",
+      "address": "小樽市色内1-9-11",
+      "category": "饭店",
+      "reason": "笔记推荐烧鸟与鸡肉盖饭",
+      "evidence": "按本次核到的门店和笔记筛选",
+      "latitude": 43.1973463,
+      "longitude": 140.9999713,
+      "sources": [
+        {
+          "name": "食べログ · 分店预算",
+          "url": "https://tabelog.com/hokkaido/A0106/A010601/1028490/"
+        },
+        {
+          "name": "11月19日汇率",
+          "url": "https://api.frankfurter.dev/v1/2026-11-19?base=USD&symbols=JPY"
+        },
+        {
+          "name": "小红书原笔记",
+          "url": "https://www.xiaohongshu.com/explore/6aa01f87000000002902ee35"
+        }
+      ],
+      "signals": [
+        {
+          "platform": "xhs",
+          "url": "https://www.xiaohongshu.com/explore/6aa01f87000000002902ee35",
+          "rating": null,
+          "reviews": null,
+          "likes": 123,
+          "rank": 6
+        }
+      ],
+      "priceNote": "$$ · 用餐预算约 US$25–31/人（JPY 4,000–4,999）",
+      "priceURL": "https://tabelog.com/hokkaido/A0106/A010601/1028490/",
+      "usdPerPerson": null,
+      "priceTier": null
+    }
+  ]
+}
